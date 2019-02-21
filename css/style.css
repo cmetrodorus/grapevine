@@ -73,11 +73,6 @@ canvas{
   margin-left: 5px;
 }
 
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
@@ -101,35 +96,37 @@ canvas{
     width: 100%;
     font-size: 2.2em;
     position: fixed;
-    top: 20%;
-    left: 20%;
+    top: 10%;
+    left: 10%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 3.3em 1fr;
     z-index: 100;
 }
 
 .bzCard {
+   max-width: 500px;
    display: grid;
-   grid-template-columns: 2fr 1fr;
+   grid-template-columns: 1fr 1fr;
 }
 
 .headline {
   font-size: 2.2em;
 }
 
-.introBlock {
-  position: fixed;
-  top: 50%;
-  width: 30%;
+.signUp {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  padding-top: 1.3em;
 }
+
 
 .emailForm {
     display: flex;
-    left: 50%;
     flex-direction: column;
-    justify-content: center;
-    padding-bottom: 2em;
-    padding-left: 2.8em;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 2.5em;
 }
 
 
